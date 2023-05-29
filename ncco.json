@@ -6,7 +6,6 @@
   {
     "action": "connect",
     "eventUrl": ["https://example.com/events"],
-    "timeout": "45",
     "from": "17806282791",
     "endpoint": [
       {

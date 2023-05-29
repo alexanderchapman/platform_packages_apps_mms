@@ -1,1 +1,15 @@
-[{"action":"talk","text":"One moment"},{"action":"talk","text":"This call was transferred"},{"action":"input","type":["dtmf"],"dtmf":{"maxDigits":1},"eventUrl":["https://example.com/ivr"]},{"action":"connect","endpoint":[{"type":"phone","number":"14155550100"}]}]
+[
+  {
+    "action": "talk",
+    "text": "One moment"
+  },
+  {
+    "action": "connect",
+    "endpoint": [
+      {
+        "type": "phone",
+        "number": "16049080470"
+      }
+    ]
+  }
+]

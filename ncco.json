@@ -1,7 +1,6 @@
 [
   {
     "action": "connect",
-    "from": "17806282791",
     "endpoint": [
       {
         "type": "phone",

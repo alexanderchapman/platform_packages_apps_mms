@@ -3,15 +3,4 @@
     "action": "talk",
     "text": "Please wait while we connect you"
   },
-  {
-    "action": "connect",
-    "from": "17806282791",
-    "endpoint": [
-      {
-        "type": "phone",
-        "number": "16049080470",
-        "dtmfAnswer": "2p02p"
-      }
-    ]
-  }
 ]

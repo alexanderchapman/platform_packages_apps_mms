@@ -1,18 +1,1 @@
-[
-  {
-    "action": "talk",
-    "text": "Please wait while we connect you"
-  },
-  {
-    "action": "connect",
-    "eventUrl": ["https://example.com/events"],
-    "from": "17806282791",
-    "endpoint": [
-      {
-        "type": "phone",
-        "number": "16049080470",
-        "dtmfAnswer": "2p02p"
-      }
-    ]
-  }
-]
+[{"action":"talk","text":"One moment"},{"action":"talk","text":"This call was transferred"},{"action":"input","type":["dtmf"],"dtmf":{"maxDigits":1},"eventUrl":["https://example.com/ivr"]},{"action":"connect","endpoint":[{"type":"phone","number":"14155550100"}]}]

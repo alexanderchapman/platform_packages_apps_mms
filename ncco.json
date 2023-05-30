@@ -1,32 +1,16 @@
 [
     {
         "action": "talk",
-        "text": "Welcome to a Voice API I V R.",
-        "language": "en-US",
-        "style": 2,
-        "bargeIn": false
+        "text": "Please wait while we connect you with Alex Chapman."
     },
     {
-        "action": "talk",
-        "text": "Press 1, for maybe, and 2, for not sure, followed by the hash key.",
-        "language": "en-US",
-        "style": 2,
-        "bargeIn": true
-    },
-    {
-        "action": "input",
-        "type": [
-            "dtmf"
-        ],
-        "dtmf": {
-            "submitOnHash": true,
-            "timeOut": 10
-        }
-    },
-    {
-        "action": "talk",
-        "text": "Thanks for your input, goodbye.",
-        "language": "en-US",
-        "style": 2
+        "action": "connect",
+        "timeout": 20,
+        "endpoint": [
+            {
+                "type": "phone",
+                "number": "16049080470"
+            }
+        ]
     }
 ]

@@ -1,14 +1,32 @@
 [
-  {
-    "action": "talk",
-    "text": "Welcome to a Voice API I V R. ",
-    "language": "en-GB",
-    "bargeIn": false
-  },
-  {
-    "action": "talk",
-    "text": "Press 1 for maybe and 2 for not sure followed by the hash key",
-    "language": "en-GB",
-    "bargeIn": true
-  }
+    {
+        "action": "talk",
+        "text": "Welcome to a Voice API I V R.",
+        "language": "en-US",
+        "style": 2,
+        "bargeIn": false
+    },
+    {
+        "action": "talk",
+        "text": "Press 1, for maybe, and 2, for not sure, followed by the hash key.",
+        "language": "en-US",
+        "style": 2,
+        "bargeIn": true
+    },
+    {
+        "action": "input",
+        "type": [
+            "dtmf"
+        ],
+        "dtmf": {
+            "submitOnHash": true,
+            "timeOut": 10
+        }
+    },
+    {
+        "action": "talk",
+        "text": "Thanks for your input, goodbye.",
+        "language": "en-US",
+        "style": 2
+    }
 ]
